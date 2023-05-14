@@ -1,0 +1,477 @@
+
+
+/* aqui con este sector * al inicio puedo establecer valores por defecto universal para toda la hoja ejemplo el estilo  de texto, etc */
+
+*{                  /* se recomienda agragar esto al principio para resetar valores a 0 antes de empezar a colocar estilos a la hoja */   
+	 margin:0;
+	 padding:0;
+	 list-style:none;
+	 font-family: Arial, Georgia, sans-serif;
+	 box-sizing: border-box;
+    }
+    
+    
+   
+
+
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.bloque1{
+    
+    width: 97%;
+    height: 150px;
+    padding: 5px;
+    background-color: dimgrey;
+    margin: auto;
+}
+
+#logo img{
+    
+    width: 190px;
+    height: 100px;
+    
+    position: absolute;
+    display: inline-block;
+    
+   
+    
+}
+
+#texto1  {
+    
+    width: 190px;
+    height: 90px;
+ 
+    position: absolute;
+    display: inline-block;
+    float: left;
+    left: 220px;
+    padding: 5px;
+   top: 30px;
+    color: white;
+   
+  
+    
+}
+
+
+
+
+.bloque1 nav ul {
+    
+
+   
+  overflow: hidden;
+  background-color: #333;
+   display: inline-flex;
+   
+    float: right;
+  padding: 5px;
+    margin-top: 25px;
+
+   
+ 
+
+}
+
+
+
+
+
+
+
+.bloque1 nav  ul li a{
+   
+    padding: 10px;
+    color: white;
+   
+   
+   
+ 
+
+}
+
+
+.bloque1 nav ul li a{
+    text-decoration: none;
+}
+
+
+
+
+
+.bloque2{
+    
+    width: 97%;
+    height: 800px;
+   
+    background-image: url(imagenes/hawaii.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: contain;
+    margin: auto;
+    display: flex;
+   opacity: 1;
+}
+
+#box1{
+        
+    width: 700px;
+    height: auto;
+    background-color: transparent;
+ 
+    text-align: right;
+    padding: 15px;
+    position: absolute;
+    right: 140px;
+    
+    margin-top: 200px;
+        color:white;
+    
+    
+}
+
+
+#box2 ul li{
+    
+    
+    width: auto;
+    
+    background-color: greenyellow;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px
+    
+    
+}
+
+
+
+
+
+
+
+
+.bloque3{
+    
+    width: 97%;
+    height: 540px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: auto;
+    
+
+   
+}
+
+.bloque3 p, h2{
+    
+    margin: auto;
+}
+
+
+
+
+
+#box3{
+    
+    width: 96%;
+   height: 80%;
+    background-color: red;
+    display: inline-flex;
+  
+    margin: auto;
+     flex-direction: row;
+    
+
+ 
+    
+}
+
+.boxsup{
+    
+    width: 20%;
+    height: 97%;
+    background-color: greenyellow;
+    display:inline-flex;
+    margin: auto;
+  
+    align-content: center;
+    
+
+    
+    
+  
+   
+    
+   
+    
+    
+}
+
+
+
+.boxinf{
+     width: 100%;
+    height: 50%;
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 0;
+
+     
+    
+    
+}
+
+
+
+#cuadro1b ul li{
+    
+    display: inline;
+}
+
+#jv{
+    
+    background-color: #f3db4a;
+    border: 4px solid #f3db4a;
+    border-radius: 4px;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+#rc{
+    background-color: dodgerblue;
+    border: 4px solid dodgerblue;
+    border-radius: 4px;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    
+    
+}
+
+
+#cuadro2b ul li{
+    
+    display: inline;
+}
+
+#cuadro3b ul li{
+    
+    display: inline;
+}
+
+
+#ng{
+    
+    background-color: gray;
+    border: 4px solid gray;
+    border-radius: 4px;
+    align-items: center;
+    font-weight: 700;
+    color:white;
+}
+
+
+#st{
+    background-color: red;
+    border: 4px solid red;
+    border-radius: 4px;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+
+}
+
+
+
+#cuadro1a{
+    background-image: url(imagenes/steve.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+    
+}
+
+
+#cuadro2a{
+    background-image: url(imagenes/bill.jpg);
+    background-size: contain;
+   
+}
+
+#cuadro3a{
+    
+    background-image: url(imagenes/ada.jpeg);
+    background-size: contain;
+}
+
+
+
+
+
+
+.bloque4{
+    
+    width: 97%;
+    height: 540px;
+    padding: 5px;
+    background-color: greenyellow;
+    margin: auto;
+    align-self: center;
+    
+    
+}
+
+.bloque5{
+    
+    width: 50%;
+    height: 530px;
+    padding: 5px;
+    background-image: url(imagenes/honolulu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    float: left;
+}
+
+.bloque6{
+    
+    width: 50%;
+    height: 530px;
+    padding: 5px;
+    background-color: dimgrey;
+    margin: auto;
+    float: left;
+    color: white;
+}
+
+
+
+
+.bloque7{
+    
+    width: 97%;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    
+    margin: auto;
+   border: 1px solid black;
+    
+    
+}
+
+.cuadroform{
+    padding: 50px 10px;
+    display: block;
+
+    
+   
+    background-color: transparent;
+    border: 1px solid black;
+
+  
+    
+}
+
+.cuadroform {
+    width: 50%;    height: auto;
+    margin: auto;
+   
+   
+    text-align: center;
+}
+
+
+input {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 40px;
+    border-radius: 3px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+
+#enviar{
+  
+    position: relative;
+    width: 80%;
+    background-color: #96c93e;
+    
+    color: white;
+   margin: 5px;
+}
+
+#cuadrotext{
+    
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 120%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.bloque8{
+    
+    width: 97%;
+    height: 140px;
+    padding: 5px;
+    background-color: #1D465C;
+    margin: auto;
+    
+    
+}
+
+
+#cuadroinf{
+    
+    width: 80%;
+    height:70px;
+    background-color: transparent;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+#cuadroinf ul li{
+    width: auto;
+   
+    position: relative;
+    display: inline-flex;
+    align-content: space-around;
+    margin: 15px auto;
+   margin: 25px;
+   
+  
+ 
+}
+
+#cuadroinf ul li a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
